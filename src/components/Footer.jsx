@@ -1,5 +1,4 @@
 import React from "react";
-import affiliations from '../images/Daco_474383.png'
 import { AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {

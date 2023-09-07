@@ -10,7 +10,7 @@ const Hero = () =>{
                 {/*Overlay */}
                 <div className='absolute w-full h-full text-gray-200 bg-black/40 flex flex-col justify-center items-center h-screen ' >
                     <h2 className=' text-gray-200 px-4 text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold tracking-widest'>IRVINE FINTECH ASSOCIATION</h2>
-                    <h2 className=' text-gray-200 px-4 text-2xl sm:text-3xl md:text-4xl lg:text-3xl tracking-widest'>University of California, terst test sets Irvine</h2>
+                    <h2 className=' text-gray-200 px-4 text-2xl sm:text-3xl md:text-4xl lg:text-3xl tracking-widest'>University of California, Irvine</h2>
                     <h2 className=' text-gray-200 px-4 text-2xl sm:text-3xl md:text-4xl lg:text-3xl tracking-widest'>Est. 2023</h2>
 
                 </div>

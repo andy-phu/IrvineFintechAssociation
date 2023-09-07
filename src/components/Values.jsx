@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"
+import React from "react"
 import man from '../images/vecteezy_worker-climbs-the-bar-graph-with-the-green-arrow-up-career_16779656_364.png'
 import pig from '../images/pngwing.com.png'
 import networking from '../images/pngwing.com-2.png'
