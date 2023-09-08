@@ -1,5 +1,5 @@
 import React from "react";
-import Sahil from '../images/sahilIFA.jpg';
+import Carissa from '../images/carissa.jpeg';
 
 const Fin = () => {
   return (
@@ -7,41 +7,47 @@ const Fin = () => {
       <div className='border border-white h-4/5 w-4/5 flex flex-col'>
         <div className='pb-2'>
           <h1 className='text-3xl font-extrabold text-green-700 text-opacity-78 tracking-widest'>
-            RISHIKA MURARKA
+          CARISSA OSTERHOUDT
           </h1>
         </div>
-        <h1 className='text-2xl font-bold tracking-widest text-black italic'>PRESIDENT</h1>
+        <h1 className='text-2xl font-bold tracking-widest text-black italic'>Vice President of Finance</h1>
         <div className='pt-4 flex'>
           <div className='flex w-2/3'>
             <div className='border border-white text-black text-xl flex flex-col justify-start pr-16'>
-              <p className='pb-6'>
+              <p className='pb-2'>
                 <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>2nd</span>
               </p>
-              <p className='pb-6'>
+              <p className='pb-2'>
                 <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Business Administration</span>
               </p>
-              <p className='pb-6'>
-                <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>Finance, Marketing</span>
+              <p className='pb-2'>
+                <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>Finance</span>
               </p>
-              <p className='pb-6'>
+              <p className='pb-2'>
                 <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>Digital Information Systems</span>
               </p>
-              <p className='pb-6'>
-                <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Yorba Linda, CA</span>
+              <p className='pb-2'>
+                <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Irvine, California</span>
               </p>
-              <p className='pb-6'>
-                <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Digital Marketing Intern at Shaip, ASUCI At-Large Senator, ASUCI Mental Health Lead</span>
+              <p className='pb-2'>
+                <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Director of Media at National Honor Society, Co-Founder and Vice-President of Sparkling Hearts Foundation, Mentee at Undergraduate Business Association</span>
               </p>
-              <p className='pb-6'>
-                <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Theatre, Guitar and Piano, Cooking & consuming pasta</span>
+              <p className='pb-2'>
+                <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Baking, Playing table tennis, Graphic design </span>
               </p>
-              <p className='pb-6'>
-                <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>I joined IFA because of its unwavering commitment to fostering an environment where I can learn more about this industry as well as propel my career with great opportunities. IFA’s goals of creating a community stands out to me and I am excited to connect with other individuals that share the same passions as me and grow as a future business leader.</span>
+              <p className='pb-2'>
+                <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"The Irvine FinTech Association provides me a space where I can further explore my passion for finance and technology, while also pursuing new and exciting opportunities. At the same time, I get to help create a community of individuals who are just as passionate about the FinTech industry."</span>
               </p>
             </div>
           </div>
-          <div className='w-1/3 flex justify-end'>
-            <img className='w-auto h-auto' src={Sahil} alt="Sahil" />
+          <div className='w-1/3 flex justify-start items-center'>
+            <div className="w-full h-full bg-gray-300 relative overflow-hidden">
+              <img
+                src={Carissa}
+                alt="Carissa"
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
         </div>
       </div>

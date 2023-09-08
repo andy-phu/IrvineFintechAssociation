@@ -1,5 +1,5 @@
 import React from "react";
-import Sahil from '../images/sahilIFA.jpg';
+import Rishika from '../images/rishika.png';
 
 const Pres = () => {
   return (
@@ -10,36 +10,43 @@ const Pres = () => {
             RISHIKA MURARKA
           </h1>
         </div>
-        <h1 className='text-2xl font-bold tracking-widest text-black italic'>PRESIDENT & FOUNDER</h1>
+        <h1 className='text-2xl font-bold tracking-widest text-black italic'>President & Founder</h1>
         <div className='pt-4 flex'>
-          <div className='w-1/3 flex justify-start'>
-            <img className='w-auto h-auto' src={Sahil} alt="Sahil" />
+          <div className='w-1/3 flex justify-start items-center'>
+            <div className="w-full h-full bg-gray-300 relative overflow-hidden">
+              <img
+                src={Rishika}
+                alt="Rishika"
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <div className='w-2/3 pl-16'>
             <div className='border border-white text-black text-xl'>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>2nd</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>3rd</span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Business Administration</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Computer Science and Business Economics 
+</span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>Finance, Marketing</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>Intelligent Systems (AI) </span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>Digital Information Systems</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>None</span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Yorba Linda, CA</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Mumbai, India</span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Digital Marketing Intern at Shaip, ASUCI At-Large Senator, ASUCI Mental Health Lead</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Teaching Assistant for MGMT 30A/B (Accounting Courses) and ICS 6B, EVP at Hedge Fund Society at UCI, Software Applications Intern at Avanath Capital, Deloitte Diversity Program Mentee</span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Theatre, Guitar and Piano, Cooking & consuming pasta</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Running, Reading </span>
                 </p>
-                <p className='pb-6'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>I joined IFA because of its unwavering commitment to fostering an environment where I can learn more about this industry as well as propel my career with great opportunities. IFA’s goals of creating a community stands out to me and I am excited to connect with other individuals that share the same passions as me and grow as a future business leader.</span>
+                <p className='pb-2'>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>“Community is about finding people who share the same vision as you.” In the realm of financial technology, I'm committed to fostering a community driven to explore and innovate. It is my  mission to educate and empower, and my vision is to transform this collective into the leaders who will shape tomorrow's fintech landscape."</span>
                 </p>
             </div>
           </div>

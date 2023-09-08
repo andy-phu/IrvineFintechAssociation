@@ -30,8 +30,7 @@ const Meetus = () => {
             <Seperator/>
             <Mark2/>
             <Seperator/>
-            <PR/>
-            <Event/>
+            <PR/>            
             <Footer/>
         </div>
 
@@ -46,3 +45,4 @@ const Meetus = () => {
 export default Meetus;
 
 
+//<Event/>
