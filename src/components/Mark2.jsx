@@ -1,5 +1,5 @@
 import React from "react";
-import Sahil from '../images/sahilIFA.jpg';
+import Dominic from '../images/dominic.jpg';
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Mark2 = () => {
@@ -44,7 +44,7 @@ const Mark2 = () => {
           <div className='w-1/3 flex justify-start items-center flex-col'>
             <div className="w-full h-full bg-gray-300 relative overflow-hidden">
               <img
-                src={Sahil}
+                src={Dominic}
                 alt="Sahil"
                 className="object-cover w-full h-fullz"
               />

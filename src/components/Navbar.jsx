@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link to="/home" className=' text-gray-200 text-decoration-none text-lg font-bold px-6 hover:opacity-70'>HOME</Link>
                 <Link to="/meetus" className='text-gray-200 text-decoration-none text-lg font-bold px-6 hover:opacity-70'>MEET US!</Link>
                 <Link to="/events" className='text-gray-200 text-decoration-none text-lg font-bold px-6 hover:opacity-70'>EVENTS</Link>
-                <Link to="/joinus" className='text-gray-200 text-decoration-none text-lg font-bold px-6 hover:opacity-70'>JOIN US!</Link>
+                <Link to="/joinus" className='text-gray-200 text-decoration-none text-lg font-bold pl-6 pr-8 hover:opacity-70'>JOIN US!</Link>
             </div>
         </div>
     );
