@@ -13,9 +13,7 @@ const Home = () => {
             <Navbar/>
             <Hero/>
             <Mission/>
-            <Seperator/>
             <Values/>
-            <Seperator/>
             <Affiliations/>
             <Footer/>
         </div>
