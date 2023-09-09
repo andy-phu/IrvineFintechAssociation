@@ -15,7 +15,7 @@ import PR from '../components/PR'
 
 const Meetus = () => {
     return (
-        <div className='overflow-x-hidden overflow-y-hidden font-raleway text-gray-200'>
+        <div className='overflow-hidden font-raleway text-gray-200'>
             <Navbar/>
             <MeetHero/>
             <Pres/>

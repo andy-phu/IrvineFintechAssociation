@@ -15,28 +15,28 @@ const Mark2 = () => {
         <div className='pt-4 flex'>
           <div className='flex w-2/3'>
             <div className='border border-white text-black text-xl flex flex-col justify-start pr-16'>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>3rd</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Economics</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>None</span>
               </p>
-              <p className='pb-2' >
+              <p className='' >
                 <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>Management</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Fontana, CA</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>ASUCI, Northwestern Mutual Intern, UCI TDS</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Gym, Reading</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"I joined IFA because of its unwavering commitment to fostering an environment where I can learn more about this industry as well as propel my career with great opportunities. IFA’s goals of creating a community stands out to me and I am excited to connect with other individuals that share the same passions as me and grow as a future business leader."</span>
               </p>
             </div>

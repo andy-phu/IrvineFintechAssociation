@@ -15,28 +15,28 @@ const Fin = () => {
         <div className='pt-4 flex'>
           <div className='flex w-2/3'>
             <div className='border border-white text-black text-xl flex flex-col justify-start pr-16'>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>2nd</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Business Administration</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>Finance</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>Digital Information Systems</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Irvine, California</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Director of Media at National Honor Society, Co-Founder and Vice-President of Sparkling Hearts Foundation, Mentee at Undergraduate Business Association</span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Baking, Playing table tennis, Graphic design </span>
               </p>
-              <p className='pb-2'>
+              <p className=''>
                 <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"The Irvine FinTech Association provides me a space where I can further explore my passion for finance and technology, while also pursuing new and exciting opportunities. At the same time, I get to help create a community of individuals who are just as passionate about the FinTech industry."</span>
               </p>
             </div>

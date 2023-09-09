@@ -30,7 +30,7 @@ const Tech = () => {
                 </a>
             </div>
           </div>
-          <div className='w-2/3 pl-16'>
+          <div className='w-3/4 pl-16'>
             <div className='border border-white text-black text-xl'>
                 <p className='pb-2'>
                   <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>4th</span>
@@ -54,7 +54,7 @@ const Tech = () => {
                   <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Gym, Music Festivals, Tennis, Basketball, Keyboards </span>
                 </p>
                 <p className='pb-2'>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"Being a Computer Science student, I've always been captivated by the fascinating overlap of technology and finance. The GameStop incident, in particular, ignited a keen interest in the stock market, ultimately guiding me towards the Irvine Finance Association. I'm thrilled to embark on a journey of learning and collaboration with like-minded peers, delving into the realm of financial technology. This presents an exciting chance to play a part in revolutionizing our approach to finance in this digital age."</span>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"As a Computer Science student, I'm passionate about software engineering and have developed a keen interest in the stock market - especially after the GameStop incident. This led me to the Irvine Finance Association. I see this as a unique opportunity to merge cutting-edge technology with the world of finance."</span>
                 </p>
             </div>
           </div>

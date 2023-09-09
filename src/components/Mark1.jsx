@@ -1,5 +1,5 @@
 import React from "react";
-import Sahil from '../images/sahilIFA.jpg';
+import Livie from '../images/unnamed.jpg';
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Mark1 = () => {
@@ -16,8 +16,8 @@ const Mark1 = () => {
           <div className='w-1/3 flex justify-start items-center flex-col'>
               <div className="w-full h-full bg-gray-300 relative overflow-hidden">
                 <img
-                  src={Sahil}
-                  alt="Sahil"
+                  src={Livie}
+                  alt="Livie"
                   className="object-cover w-full h-full"
                 />
               </div>
@@ -32,28 +32,28 @@ const Mark1 = () => {
             </div>
           <div className='w-2/3 pl-16'>
             <div className='border border-white text-black text-xl'>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>3rd</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Economics</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>None</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>Accounting</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Jakarta, Indonesia</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Programs Intern at UCI International Center, IPG Mentor, SASA Mentee</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Dance, Travel, Brazilian Jiu-Jitsu</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"I am excited to be a part of IFA because I want to learn more about the fintech industry and also be more involved on campus while gaining valuable leadership experience. It also aligns with my future aspiration of pursuing a career in product management within the fintech space."</span>
                 </p>
             </div>

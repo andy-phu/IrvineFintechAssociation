@@ -33,29 +33,29 @@ const Pres = () => {
           </div>
           <div className='w-2/3 pl-16'>
             <div className='border border-white text-black text-xl'>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>3rd</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>MAJOR:</span> <span className='text-black'>Computer Science and Business Economics 
 </span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>EMPHASIS:</span> <span className='text-black'>Intelligent Systems (AI) </span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>None</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Mumbai, India</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Teaching Assistant for MGMT 30A/B (Accounting Courses) and ICS 6B, EVP at Hedge Fund Society at UCI, Software Applications Intern at Avanath Capital, Deloitte Diversity Program Mentee</span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Running, Reading </span>
                 </p>
-                <p className='pb-2'>
+                <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>“Community is about finding people who share the same vision as you.” In the realm of financial technology, I'm committed to fostering a community driven to explore and innovate. It is my  mission to educate and empower, and my vision is to transform this collective into the leaders who will shape tomorrow's fintech landscape."</span>
                 </p>
             </div>
