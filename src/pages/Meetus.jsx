@@ -10,7 +10,7 @@ import Fin from '../components/Fin'
 import Mark1 from '../components/Mark1'
 import Mark2 from '../components/Mark2'
 import PR from '../components/PR'
-import Event from '../components/Event'
+//import Event from '../components/Event'
 
 
 const Meetus = () => {
