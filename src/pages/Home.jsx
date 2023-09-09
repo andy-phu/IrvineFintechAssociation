@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
     return (
-        <div className='overflow-x-hidden font-raleway text-gray-200'>
+        <div className='overflow-x-hidden overflow-y-hidden font-raleway text-gray-200'>
             <Navbar/>
             <Hero/>
             <Mission/>
