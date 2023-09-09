@@ -12,7 +12,7 @@ const Joinus = () => {
         <MeetJoin/>
         <div className='flex justify-center items-center'>
             <div className='flex justify-center items-center'>
-                <img className='h-1/2 w-1/2' src={Coming} alt="Coming Soon Picture" />
+                <img className='h-1/2 w-1/2' src={Coming} alt="Coming Soon" />
             </div>
         </div>
 
