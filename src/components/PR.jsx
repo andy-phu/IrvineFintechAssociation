@@ -1,5 +1,6 @@
 import React from "react";
 import Tiger from '../images/tigerPan.jpeg';
+import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const PR = () => {
   return (
@@ -12,13 +13,21 @@ const PR = () => {
         </div>
         <h1 className='text-2xl font-bold tracking-widest text-black italic'>Vice President of Public Relation </h1>
         <div className='pt-4 flex'>
-          <div className='w-1/3 flex justify-start items-center'>
+          <div className='w-1/3 flex justify-start items-center flex-col'>
               <div className="w-full h-full bg-gray-300 relative overflow-hidden">
                 <img
                   src={Tiger}
                   alt="Tiger"
                   className="object-cover w-full h-full"
                 />
+              </div>
+              <div className='flex justify-center pt-2 space-x-2 '>
+                <a href="https://www.linkedin.com/in/boyu-pan-1086b31bb/" target="_blank" rel="noopener noreferrer">
+                    <AiFillLinkedin className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
+                <a href="mailto:boyup1@uci.edu" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineMail  className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
               </div>
             </div>
           <div className='w-2/3 pl-16'>

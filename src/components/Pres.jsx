@@ -1,5 +1,6 @@
 import React from "react";
 import Rishika from '../images/rishika.png';
+import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Pres = () => {
   return (
@@ -12,7 +13,7 @@ const Pres = () => {
         </div>
         <h1 className='text-2xl font-bold tracking-widest text-black italic'>President & Founder</h1>
         <div className='pt-4 flex'>
-          <div className='w-1/3 flex justify-start items-center'>
+          <div className='w-1/3 flex justify-start items-center flex-col'>
             <div className="w-full h-full bg-gray-300 relative overflow-hidden">
               <img
                 src={Rishika}
@@ -20,6 +21,15 @@ const Pres = () => {
                 className="object-cover w-full h-full"
               />
             </div>
+            <div className='flex justify-center pt-2 space-x-2 '>
+                <a href="https://www.linkedin.com/in/rishika-murarka" target="_blank" rel="noopener noreferrer">
+                    <AiFillLinkedin className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
+                <a href="mailto:rmurarka@uci.edu">
+                    <AiOutlineMail  className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
+            </div>
+
           </div>
           <div className='w-2/3 pl-16'>
             <div className='border border-white text-black text-xl'>

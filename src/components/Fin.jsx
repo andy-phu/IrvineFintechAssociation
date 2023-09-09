@@ -1,5 +1,6 @@
 import React from "react";
 import Carissa from '../images/carissa.jpeg';
+import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Fin = () => {
   return (
@@ -40,13 +41,21 @@ const Fin = () => {
               </p>
             </div>
           </div>
-          <div className='w-1/3 flex justify-start items-center'>
+          <div className='w-1/3 flex justify-start items-center flex-col'>
             <div className="w-full h-full bg-gray-300 relative overflow-hidden">
               <img
                 src={Carissa}
                 alt="Carissa"
                 className="object-cover w-full h-full"
               />
+            </div>
+            <div className='flex justify-center pt-2 space-x-2  '>
+                <a href="https://www.linkedin.com/in/carissaosterhoudt" target="_blank" rel="noopener noreferrer">
+                    <AiFillLinkedin className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
+                <a href="mailto:costerho@uci.edu" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineMail  className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
             </div>
           </div>
         </div>

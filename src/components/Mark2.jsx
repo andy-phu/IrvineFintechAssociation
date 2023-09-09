@@ -1,5 +1,6 @@
 import React from "react";
 import Sahil from '../images/sahilIFA.jpg';
+import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Mark2 = () => {
   return (
@@ -36,17 +37,25 @@ const Mark2 = () => {
                 <span className=' text-green-700 text-opacity-78 font-bold'>HOBBIES:</span> <span className='text-black'>Gym, Reading</span>
               </p>
               <p className='pb-2'>
-                <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>I joined IFA because of its unwavering commitment to fostering an environment where I can learn more about this industry as well as propel my career with great opportunities. IFA’s goals of creating a community stands out to me and I am excited to connect with other individuals that share the same passions as me and grow as a future business leader.</span>
+                <span className=' text-green-700 text-opacity-78 font-bold'>WHY IFA?:</span> <span className='text-black'>"I joined IFA because of its unwavering commitment to fostering an environment where I can learn more about this industry as well as propel my career with great opportunities. IFA’s goals of creating a community stands out to me and I am excited to connect with other individuals that share the same passions as me and grow as a future business leader."</span>
               </p>
             </div>
           </div>
-          <div className='w-1/3 flex justify-start items-center'>
+          <div className='w-1/3 flex justify-start items-center flex-col'>
             <div className="w-full h-full bg-gray-300 relative overflow-hidden">
               <img
                 src={Sahil}
                 alt="Sahil"
                 className="object-cover w-full h-fullz"
               />
+            </div>
+            <div className='flex justify-center pt-2 space-x-2'>
+                <a href="https://www.linkedin.com/company/irvine-fintech-association/" target="_blank" rel="noopener noreferrer">
+                    <AiFillLinkedin className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
+                <a href="mailto:dbeltra@uci.edu" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineMail  className='w-8 h-8 text-black hover:opacity-60'/>
+                </a>
             </div>
           </div>
         </div>
