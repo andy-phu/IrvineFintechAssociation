@@ -11,7 +11,7 @@ const PR = () => {
           TIGER PAN
           </h1>
         </div>
-        <h1 className='text-2xl font-bold tracking-widest text-black italic'>Vice President of Public Relation </h1>
+        <h1 className='text-2xl font-bold tracking-widest text-black italic'>Vice President of Public Relations </h1>
         <div className='pt-4 flex'>
           <div className='w-1/3 flex justify-start items-center flex-col'>
               <div className="w-full h-full bg-gray-300 relative overflow-hidden">
