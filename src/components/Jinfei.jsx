@@ -1,6 +1,6 @@
 import React from "react";
 import JinfeiPic from '../images/Jinfei-Sheng.JPG.png';
-import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Jinfei = () => {
   return (
