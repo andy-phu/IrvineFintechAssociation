@@ -1,6 +1,6 @@
 import React from "react";
 import Coming from '../images/—Pngtree—coming soon vector template design_4146817.png';
-import MeetJoin from '../components/MeetJoin'
+import MeetJoin from '../components/BoardJoin'
 import Navbar from '../components/Navbar'
 
 

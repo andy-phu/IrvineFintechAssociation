@@ -1,9 +1,10 @@
 
 import React from 'react'
 import Home from './pages/Home'
-import Meetus from './pages/Meetus'
+import Board from './pages/Board'
 import Events from './pages/Events'
 import Joinus from './pages/Joinus'
+import Advisors from './pages/Advisors'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
         <Routes>
           <Route index element={<Home/>} />
           <Route path='/home' element={<Home/>} />
-          <Route path='/meetus' element={<Meetus/>} />
+          <Route path='/board' element={<Board/>} />
           <Route path='/events' element={<Events/>} />
           <Route path='/joinus' element={<Joinus/>} />
+          <Route path='/advisors' element={<Advisors/>} />
 
         </Routes>
       
@@ -26,3 +28,4 @@ function App() {
 }
 
 export default App;
+

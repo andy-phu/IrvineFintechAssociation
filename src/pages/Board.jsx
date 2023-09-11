@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from '../components/Navbar'
-import MeetHero from '../components/MeetHero'
+import BoardHero from '../components/BoardHero'
 import Footer from '../components/Footer'
 import Pres from '../components/Pres'
 import Seperator from '../components/Seperator'
@@ -13,11 +13,11 @@ import PR from '../components/PR'
 //import Event from '../components/Event'
 
 
-const Meetus = () => {
+const Board = () => {
     return (
         <div className='overflow-hidden font-raleway text-gray-200'>
             <Navbar/>
-            <MeetHero/>
+            <BoardHero/>
             <Pres/>
             <Seperator/>
             <Evp/>
@@ -42,7 +42,7 @@ const Meetus = () => {
     );
 };
 
-export default Meetus;
+export default Board;
 
 
 //<Event/>

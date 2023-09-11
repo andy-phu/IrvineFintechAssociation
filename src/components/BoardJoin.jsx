@@ -3,7 +3,7 @@ import heroIFA from '../images/heroIFA.jpeg'
 import {RiArrowDropDownLine} from "react-icons/ri"
 
 
-const MeetJoin = () =>{
+const BoardJoin = () =>{
     return(
         <div id='hero'  className='mx-auto h-screen'>
             <div className='h-full w-full h-screen relative' >
@@ -27,4 +27,4 @@ const MeetJoin = () =>{
     )
 }
 
-export default MeetJoin
+export default BoardJoin
