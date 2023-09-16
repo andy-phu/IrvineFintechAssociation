@@ -5,9 +5,9 @@ import { Carousel } from 'react-bootstrap';
 
 const Schedule = () => {
     return (
-        <div className='flex flex-col justify-center items-center h-screen pb-4'>
-            <h1 className='text-7xl font-extrabold text-green-700 bg-opacity-78 tracking-wider pb-2'>HIGHLIGHTS</h1>
-            <Carousel className='w-1/3'>
+        <div className='flex flex-col justify-center items-center h-8/9 py-20'>
+            <h1 className='text-5xl lg:text-7xl font-extrabold text-green-700 bg-opacity-78 tracking-wider pb-2'>HIGHLIGHTS</h1>
+            <Carousel className='w-6/7 h-1/2 lg:w-1/3'>
                 <Carousel.Item interval={1000}>
                     <div className="w-full h-1/2 flex justify-center items-center border-2  rounded">
                         <img 
