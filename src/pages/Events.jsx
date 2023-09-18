@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import EventHero from '../components/EventHero'
 import Schedule from '../components/Schedule'
 import Footer from '../components/Footer'
+import Calendar from '../components/Calendar'
 
 
 const Events = () => {
@@ -11,6 +12,7 @@ const Events = () => {
             <Navbar/>
             <EventHero/>
             <Schedule/>
+            <Calendar/>
             <Footer/>
 
         </div>

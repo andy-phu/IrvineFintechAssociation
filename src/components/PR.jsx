@@ -49,7 +49,7 @@ const PR = () => {
                   <span className=' text-green-700 text-opacity-78 font-bold'>MINOR:</span> <span className='text-black'>CS/Math</span>
                 </p>
                 <p className=''>
-                  <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Guangzhou,CN</span>
+                  <span className=' text-green-700 text-opacity-78 font-bold'>HOMETOWN:</span> <span className='text-black'>Guangzhou, CN</span>
                 </p>
                 <p className=''>
                   <span className=' text-green-700 text-opacity-78 font-bold'>EXPERIENCE:</span> <span className='text-black'>Oversea sales manager for KSPCC, Analyst intern at HPIS, part time at Uniroom, Server and Bartender at Shogun Oversea sales manager for KSPCC, Analyst intern at HPIS, part time at Uniroom, Server and Bartender at Shogun</span>
