@@ -36,7 +36,7 @@ const Evp = () => {
             </div>
 
             <div className='w-full lg:w-1/3 flex justify-start items-center flex-col'>
-              <div className="w-3/4 h-3/4 bg-gray-300 relative overflow-hidden">
+              <div className="w-3/4 h-full bg-gray-300 relative overflow-hidden rounded shadow-2xl" style={{ boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.6)' }}>
                 <img
                   src={Sahil}
                   alt="Sahil"
@@ -129,7 +129,7 @@ const Evp = () => {
 
               </div>
               <div className='w-1/3 flex justify-end flex-col'>
-                <div className="w-full h-full bg-gray-300 relative overflow-hidden">
+                <div className="w-full h-full bg-gray-300 relative overflow-hidden rounded shadow-2xl" style={{ boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.6)' }}>
                   <img
                     src={Sahil}
                     alt="Sahil"
