@@ -1,5 +1,4 @@
 import React from "react";
-import Rishika from '../images/rishika.png';
 import mRishika from '../images/mobileRishika.png';
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
