@@ -1,21 +1,17 @@
 import React from "react";
-import Coming from '../images/—Pngtree—coming soon vector template design_4146817.png';
 import MeetJoin from '../components/BoardJoin'
 import Navbar from '../components/Navbar'
-
+import Form from '../components/Form'
+import Footer from '../components/Footer'
 
 const Joinus = () => {
   return (
 
-   <div>
+   <div className='overflow-hidden'>
         <Navbar/>
         <MeetJoin/>
-        <div className='flex justify-center items-center'>
-            <div className='flex justify-center items-center'>
-                <img className='h-1/2 w-1/2' src={Coming} alt="Coming Soon" />
-            </div>
-        </div>
-
+        <Form/>
+        <Footer/>
    </div> 
   )
 };

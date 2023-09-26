@@ -99,7 +99,7 @@ const Evp = () => {
             </div>
 
             <div className="pt-4 flex flex-row">
-              <div className='pt-4 flex w-2/3'>
+              <div className='flex w-2/3'>
                 <div className='border border-white text-black text-xl flex flex-col justify-start pr-16'>
                   <p>
                     <span className=' text-green-700 text-opacity-78 font-bold'>YEAR:</span> <span className='text-black'>2nd</span>
