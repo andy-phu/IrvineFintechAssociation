@@ -15,7 +15,7 @@ const Tech = () => {
           <h1 className='text-2xl font-bold tracking-widest text-black italic'>Vice President of Technology</h1>
         </div>
 
-        <div className='pt-4 flex flex-col lg:flex-row'>
+        <div className='lg:pt-6 pt-2 flex flex-col lg:flex-row'>
           <div className='w-full lg:w-1/3 flex justify-start items-center flex-col'>
             <div className="w-full h-full bg-gray-300 relative overflow-hidden rounded shadow-2xl" style={{ boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.6)' }}>
               <img
