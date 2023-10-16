@@ -13,7 +13,7 @@ const Footer = () => {
                     <AiOutlineInstagram  className='w-8 h-6 text-gray-200 hover:opacity-60'/>
                 </a>
             </div>
-            <a href="https://www.linkedin.com/in/andyphuu/" target="_blank" rel="noopener noreferrer" className='text-md italic pt-2 font-lobster text-gray-200 no-underline pb-2 hover:opacity-70'>Andy Phu</a>
+            <a href="https://phuportfolio.com" target="_blank" rel="noopener noreferrer" className='text-md italic pt-2 font-lobster text-gray-200 no-underline pb-2 hover:opacity-70'>Andy Phu</a>
         </div>
     );
 };
