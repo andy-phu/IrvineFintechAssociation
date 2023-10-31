@@ -10,7 +10,9 @@ const Form = () => {
     document.getElementById("ff-compose").appendChild(script);
 
     return () => {
-      document.getElementById("ff-script").remove();
+      if (document.getElementById("ff-script") !== null){
+        document.getElementById("ff-script").remove();
+      }
     };
   }, []);
 
