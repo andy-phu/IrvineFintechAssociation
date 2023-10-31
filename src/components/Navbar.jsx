@@ -38,6 +38,7 @@ const Navbar = () => {
                 </div>
 
                 <Link to="/events" className='text-gray-200 text-decoration-none text-lg font-bold px-6 hover:opacity-70 sm-hidden'>EVENTS</Link>
+                <Link to="/gallery" className='text-gray-200 text-decoration-none text-lg font-bold px-6 hover:opacity-70 sm-hidden'>GALLERY</Link>
                 <Link to="/joinus" className='text-gray-200 text-decoration-none text-lg font-bold pl-6 pr-8 hover:opacity-70 sm-hidden'>JOIN US!</Link>
             </div>
 
@@ -57,6 +58,7 @@ const Navbar = () => {
                             <Link onClick = {()=> setNav(!nav)} to="/board" spy={true} smooth={true} duration={500}  offset={0}  className='text-4xl pb-8 text-green-700 text-opacity-78 font-bold flex-center no-underline' > BOARD</Link>
                             <Link onClick = {()=> setNav(!nav)} to="/advisors" spy={true} smooth={true} duration={500}  offset={0}  className='text-4xl pb-8 text-green-700 text-opacity-78 font-bold flex-center no-underline' > ADVISORS</Link>
                             <Link onClick = {()=> setNav(!nav)} to="/events" spy={true} smooth={true} duration={500}   offset={0} className='text-4xl pb-8 text-green-700 text-opacity-78 font-bold flex-center no-underline' > EVENTS</Link>
+                            <Link onClick = {()=> setNav(!nav)} to="/gallery" spy={true} smooth={true} duration={500}   offset={0} className='text-4xl pb-8 text-green-700 text-opacity-78 font-bold flex-center no-underline' >GALLERY</Link>
                             <Link onClick = {()=> setNav(!nav)} to="/joinus" spy={true} smooth={true} offset={50} duration={500}   className='text-4xl pb-8 text-green-700 text-opacity-78 font-bold flex-center no-underline' > JOIN US!</Link>
                         </ul>
                     </nav>
