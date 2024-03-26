@@ -5,7 +5,7 @@ import logoWithDescription from '../images/logo-with-text-transparent.png'
 
 const Mission = () => {
     return (
-        <div className=' text-gray-900 h-screen mt-10 mb-14'>
+        <div className=' text-gray-900 h-screen mt-20 mb-10'>
             
             <div className='flex justify-center items-center text-center w-screen h-screen'>
                 <div className='w-screen lg:w-4/5 p-6'>
@@ -14,7 +14,7 @@ const Mission = () => {
                     <p className='text-xl lg:text-2xl tracking-wide text-center py-2'>
                     To empower and prepare UCI students for successful careers in the dynamic FinTech industry while emphasizing the transformative power of technology in shaping the world.
                     </p>
-                    <div className='flex justify-center pt-8'><img className='w-5/6 lg:w-80' src={logoWithDescription} alt="logoWithDescription"/></div>
+                    <div className='flex justify-center pt-8'><img className='w-1/2' src={logoWithDescription} alt="logoWithDescription"/></div>
                 </div>
             </div>          
 
