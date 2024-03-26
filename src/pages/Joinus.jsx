@@ -12,6 +12,7 @@ const Joinus = () => {
         <MeetJoin/>
         <Form/>
         <Footer/>
+        Hello
    </div> 
   )
 };
