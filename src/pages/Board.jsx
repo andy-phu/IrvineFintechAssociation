@@ -10,6 +10,7 @@ import Fin from '../components/Fin'
 import Mark1 from '../components/Mark1'
 import Mark2 from '../components/Mark2'
 import PR from '../components/PR'
+import BoardGrid from '../components/boardGrid'
 //import Event from '../components/Event'
 
 
@@ -18,10 +19,10 @@ const Board = () => {
         <div className='overflow-hidden font-raleway text-gray-200'>
             <Navbar/>
             <BoardHero/>
-            <Pres/>
+            {/* <Pres/>
             <Seperator/>
             <Evp/>
-            <Seperator/>
+            <Seperator/>[p]
             <Tech/>
             <Seperator/>
             <Fin/>
@@ -30,7 +31,8 @@ const Board = () => {
             <Seperator/>
             <Mark2/>
             <Seperator/>
-            <PR/>            
+            <PR/>             */}
+            <BoardGrid/>
             <Footer/>
         </div>
 

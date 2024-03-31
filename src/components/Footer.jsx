@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 const Footer = () => {
     return (
         <div className='w-screen h-28 bg-green-700 bg-opacity-78 flex flex-col justify-center items-center pt-4 pb-4'>
-            <p className=' text-gray-200 font-bold tracking-wider text-md pt-4 pb-0'>IRVINE FINTECH ASSOCIATION</p>
+            <p className=' text-gray-200 font-bold text-md pt-4 pb-0 tracking-widest'>Irvine FinTech Association</p>
             <div className='flex justify-center space-x-2 pt-0 pb-0 mt-0 mb-0'>
                 <a href="https://www.linkedin.com/company/irvine-fintech-association/" target="_blank" rel="noopener noreferrer">
                     <AiFillLinkedin className='w-8 h-6  text-gray-200 hover:opacity-60'/>

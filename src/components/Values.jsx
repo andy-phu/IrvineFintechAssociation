@@ -5,7 +5,7 @@ import secondMeeting from '../images/ifa-secondMeeting.png';
 
 const Values = () => {
     return (
-        <div className="relative h-1/2 w-screen flex flex-col justify-center items-center lg:space-x-8 pt-10 pb-32">
+        <div className="relative h-1/2 w-screen flex flex-col justify-center items-center lg:space-x-8 pt-10 pb-64">
             <div className ="flex justify-center text-5xl lg:text-6xl text-green-700 text-opacity-78 font-extrabold tracking-widest pb-10">
                 OUR GOALS
             </div>
